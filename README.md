@@ -1,5 +1,3 @@
-![alt text](https://pbs.twimg.com/profile_images/1092100446586630146/3uFY0wpD_400x400.jpg)
-
 # Welcome to the TwitterStatsAPI repository
 ![Build Status](https://travis-ci.org/BeniwalNaren/TwitterStatsAPI.svg?branch=master)
 
