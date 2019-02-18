@@ -1,4 +1,4 @@
-![alt text](https://gitlab.ing.net/uploads/system/project/avatar/16600/industrial-robot2.png)
+![alt text](https://travis-ci.org/BeniwalNaren/TwitterStatsAPI.svg?branch=master)
 
 # Welcome to the TwitterStatsAPI repository
 ![Build Status]()
