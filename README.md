@@ -1,7 +1,7 @@
-![alt text](https://travis-ci.org/BeniwalNaren/TwitterStatsAPI.svg?branch=master)
+![alt text](https://pbs.twimg.com/profile_images/1092100446586630146/3uFY0wpD_400x400.jpg)
 
 # Welcome to the TwitterStatsAPI repository
-![Build Status]()
+![Build Status](https://travis-ci.org/BeniwalNaren/TwitterStatsAPI.svg?branch=master)
 
 TwitterStatsAPI is is used to get the stats from Twitter trend API
 
