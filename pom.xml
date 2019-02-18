@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.reya.api</groupId>
+    <artifactId>TwitterStatsAPI</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+    <name>TwitterStatsAPI</name>
+    <description>TwitterStatsAPI</description>
+    <inceptionYear>2019</inceptionYear>
+    <properties>
+        <maven.release.version>2.5.3</maven.release.version>
+    </properties>
+    <organization>
+        <name>REYA</name>
+    </organization>
+    <developers>
+        <developer>
+            <name>Naren Beniwal</name>
+            <email>narenbeniwal@icloud.com</email>
+        </developer>
+    </developers>
+    <prerequisites>
+        <maven>2.2.1</maven>
+    </prerequisites>
+
+    <modules>
+        <module>TwitterStatsAPIWeb</module>
+        <!--<module>TwitterStatsAPIModel</module>-->
+        <!--<module>TwitterStatsAPITest</module>-->
+    </modules>
+
+    <scm>
+        <connection>scm:git:ssh://git@github.com:BeniwalNaren/TwitterStatsAPI.git
+        </connection>
+        <developerConnection>
+            scm:git:ssh://git@github.com:BeniwalNaren/TwitterStatsAPI.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>${maven.release.version}</version>
+                <configuration>
+                    <releaseProfiles>build-rpm,build-spring-boot-jar</releaseProfiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
