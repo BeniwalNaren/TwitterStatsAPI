@@ -1,0 +1,13 @@
+notifications:
+  email:
+    recipients:
+      - narenbeniwal3@gmail.com
+  on_success: change
+  on_failure: always
+
+language: java
+
+jdk:
+  - openjdk8
+
+script:
