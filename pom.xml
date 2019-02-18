@@ -28,8 +28,7 @@
 
     <modules>
         <module>TwitterStatsAPIWeb</module>
-        <!--<module>TwitterStatsAPIModel</module>-->
-        <!--<module>TwitterStatsAPITest</module>-->
+        <module>TwitterStatsAPITest</module>
     </modules>
 
     <scm>
